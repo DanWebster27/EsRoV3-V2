@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Couch">
+   <children>
+      <Button layoutX="521.0" layoutY="361.0" mnemonicParsing="false" onAction="#backButton" text="Zurück" />
+      <TextArea layoutX="42.0" layoutY="45.0" prefHeight="170.0" prefWidth="168.0" text="Auf der Couch liegt eine &#10;Fernbedienung und eine&#10;Zeitschrift.&#10;Auf dem Couchtisch steht&#10;ein Glas gefüllt mit Wasser.&#10;" />
+      <ImageView fitHeight="197.0" fitWidth="351.0" layoutX="226.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" />
+      <TextArea layoutX="42.0" layoutY="234.0" prefHeight="59.0" prefWidth="79.0" text="Zeitschrift&#10;" />
+      <TextArea layoutX="160.0" layoutY="234.0" prefHeight="59.0" prefWidth="108.0" text="Fernbedienung" />
+      <TextArea layoutX="300.0" layoutY="234.0" prefHeight="59.0" prefWidth="100.0" text="Glas Wasser" />
+      <Button layoutX="42.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Interagieren" />
+      <Button fx:id="untersucheZ" layoutX="43.0" layoutY="304.0" mnemonicParsing="false" onAction="#untersucheZ" prefHeight="14.0" prefWidth="79.0" text="Untersuchen" />
+      <Button layoutX="175.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Interagieren" />
+      <Button layoutX="175.0" layoutY="304.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="79.0" text="Untersuchen" />
+      <Button layoutX="311.0" layoutY="304.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="79.0" text="Untersuchen" />
+      <Button layoutX="311.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Interagieren" />
+   </children>
+</AnchorPane>

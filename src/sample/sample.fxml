@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="427.0" fitWidth="600.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Casablanca-Living-Room-Fan-1-of-1.jpg" />
+         </image></ImageView>
+      <Button fx:id="couchButton" layoutX="42.0" layoutY="332.0" mnemonicParsing="false" onAction="#couchButton" text="Couch" />
+      <Button layoutX="209.0" layoutY="332.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="300.0" layoutY="274.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="383.0" layoutY="332.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="461.0" layoutY="274.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="120.0" layoutY="274.0" mnemonicParsing="false" text="Button" />
+      <TextArea editable="false" layoutX="20.0" layoutY="65.0" prefHeight="190.0" prefWidth="303.0" scrollLeft="1.0" scrollTop="1.0" text="Willkommen im Escape Room!&#10;&#10;Du sitzt auf einer Couch. &#10;Vor dir ist ein Couchtisch, dahinter ein Fernseher auf &#10;einer Kommode, links von dir ist eine Tür, daneben &#10;sind ein Gemälde und eine Lampe. Rechts von dir &#10;sind ein Bücherregal und ein Sekretär. &#10;Was willst du tun, um aus dem Zimmer zu kommen?&#10;Untersuche zunächst eines der genannten Areale.&#10;" />
+      <Button fx:id="closeButton" layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#closeButton" prefHeight="39.0" prefWidth="152.0" text="Spiel Verlassen" />
+   </children>
+</AnchorPane>
